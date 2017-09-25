@@ -1,0 +1,97 @@
+{
+  "name": "rabidhadron/foundation-6-uni",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Future",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    },
+    "layout": {
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/rabidhadron/foundation-6-uni",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/foundation-zurb-template",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "foundation-6-uni",
+      "subhead": "Teaching me Foundation 6.",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "foundation-6-uni: Teaching me Foundation 6.",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "rabidhadron",
+          "repo": "foundation-6-uni"
+        }
+      ],
+      "text": "v1.0.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>ZURB Template</h1>\n<p><a href=\"https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies\"><img src=\"https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg\"></a></p>\n<p><strong>Please open all issues with this template on the main <a href=\"https://github.com/zurb/foundation-sites/issues\">Foundation for Sites</a> repo.</strong></p>\n<p>This is the official ZURB Template for use with <a href=\"http://foundation.zurb.com/sites\">Foundation for Sites</a>. We use this template at ZURB to deliver static code to our clients. It has a Gulp-powered build system with these features:</p>\n<ul>\n<li>Handlebars HTML templates with Panini</li>\n<li>Sass compilation and prefixing</li>\n<li>JavaScript module bundling with webpack</li>\n<li>Built-in BrowserSync server</li>\n<li>For production builds:<ul>\n<li>CSS compression</li>\n<li>JavaScript compression</li>\n<li>Image compression</li>\n</ul>\n</li>\n</ul>\n<h2>Installation</h2>\n<p>To use this template, your computer needs:</p>\n<ul>\n<li><a href=\"https://nodejs.org/en/\">NodeJS</a> (0.12 or greater)</li>\n<li><a href=\"https://git-scm.com/\">Git</a></li>\n</ul>\n<p>This template can be installed with the Foundation CLI, or downloaded and set up manually.</p>\n<h3>Using the CLI</h3>\n<p>Install the Foundation CLI with this command:</p>\n<pre>npm install foundation-cli --global</pre><p>Use this command to set up a blank Foundation for Sites project with this template:</p>\n<pre>foundation new --framework sites --template zurb</pre><p>The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.</p>\n<p>Now <code>cd</code> to your project name and to start your project run </p>\n<pre>foundation watch</pre><h3>Manual Setup</h3>\n<p>To manually set up the template, first download it with Git:</p>\n<pre>git <span class=\"hljs-built_in\">clone</span> https://github.com/zurb/foundation-zurb-template projectname</pre><p>Then open the folder in your command line, and install the needed dependencies:</p>\n<pre><span class=\"hljs-built_in\">cd</span> projectname\nnpm install</pre><p>Finally, run <code>npm start</code> to run Gulp. Your finished site will be created in a folder called <code>dist</code>, viewable at this URL:</p>\n<pre><span class=\"hljs-symbol\">http:</span><span class=\"hljs-comment\">//localhost:8000</span></pre><p>To create compressed, production-ready assets, run <code>npm run build</code>.</p>\n<h1>duckcreek-client</h1>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/rabidhadron/foundation-6-uni",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/rabidhadron",
+          "text": "rabidhadron"
+        }
+      ]
+    }
+  ]
+}
